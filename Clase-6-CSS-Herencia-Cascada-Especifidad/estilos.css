@@ -1,0 +1,53 @@
+/* Cascada - especificidad y herencia */
+
+/* header {
+  background-color: crimson;
+  color: white;
+} */
+/* Herencia */
+/* header > h2.title#title {
+  color: blue;
+} */
+/* .header {
+  background-color: slateblue;
+  color: red;
+}
+.header {
+  background-color: yellow;
+  color: red;
+} */
+
+#title {
+  color: blueviolet !important;
+}
+
+#title {
+  color: brown;
+}
+
+/*
+10000 - !important
+1000 - inline css
+100  - ID
+10   -  Class Atributos 
+1    - Elemento
+*/
+
+/* Herencia */
+
+/* .header {
+  background-color: crimson;
+  color: white;
+  border: 5px solid #000;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 40px;
+  color: initial;
+}
+
+.container-title {
+  border: inherit;
+  padding: inherit;
+} */
